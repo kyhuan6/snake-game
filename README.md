@@ -32,7 +32,18 @@ A classic Snake Game implemented with HTML, CSS, and JavaScript. Control the sna
    git clone https://github.com/kyhuan6/snake-game.git
    ```
 
-2. Open the `index.html` file in your browser
+2. You can run the game in two ways:
+
+   ### Option 1: Direct Browser Opening
+   - Simply open the `index.html` file in your browser
+   
+   ### Option 2: Using a Local Server (recommended)
+   - Start a Python HTTP server in the project directory:
+     ```
+     python3 -m http.server 8000
+     ```
+   - Open your browser and navigate to: http://localhost:8000/
+   - When finished, stop the server by pressing `Ctrl+C` in the terminal
 
 3. Start playing!
 
